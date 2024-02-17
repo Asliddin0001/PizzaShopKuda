@@ -1,11 +1,11 @@
-import React from 'react'
-import "./App.css"
-import Navbar from './components/Navbar'
+import React from "react";
+import "./App.css";
+import Index from "./pages/Home";
 
 export default function App() {
   return (
     <div>
-      <Navbar />
+      <Index />
     </div>
-  )
+  );
 }
